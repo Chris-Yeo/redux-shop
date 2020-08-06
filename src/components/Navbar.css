@@ -1,0 +1,54 @@
+.container img {
+    width: 80px;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.allLogo {
+    display: flex;
+    align-items: center;
+}
+
+.gundamWorld img {
+    width: 250px;
+    margin-bottom: 20px ;
+}
+
+.wrapper {
+    background-color: #1E90FF;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    font-weight: bold;
+}
+
+.cart a {
+   font-size: 18px;
+}

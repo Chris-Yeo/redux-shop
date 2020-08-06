@@ -1,0 +1,55 @@
+li {
+    list-style: none;
+}
+
+body {
+    background: url('../images/wallpaper.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: 130px;
+}
+
+.product img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.product {
+    color: white;
+    margin-bottom: 70px;
+    font-weight: bolder;
+}
+
+.homeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: 100px 70px 80px 90px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: normal;
+}
+
+
+.buttons {
+    background-color: #1E90FF;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: wheat;
+    border-color: #1E90FF;
+}
+
+.buttons:hover {
+    background-color: transparent;
+    color: white;
+  }
+
+.homeContainer img:hover {
+    box-shadow: 5px 10px 18px #888888;
+}
