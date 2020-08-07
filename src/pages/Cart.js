@@ -26,7 +26,7 @@ class Cart extends Component {
                                 <h3>Product: {item.title}</h3>
                                 <h3>Price: {`Rp. ${item.price.toLocaleString()}`}</h3>
                                 <h3>Total Item: {item.quantity}</h3>
-                                <h3>Total Amount: {item.price * item.quantity}</h3>
+                                <h3>Total Amount: {`Rp. ${item.price * item.quantity.toLocaleString()}`}</h3>
                                 <button onClick={this.props.removeCartProduct.bind(this , item)} className="buttons">Remove Item</button>
                             </div>
                         </div>
