@@ -12,7 +12,7 @@ class Home extends Component {
                     {products.map(item => 
                     <div className="product" key={item.id}>
                         <li >
-                            <img src={item.img}/>
+                            <img src={item.img} alt={item.title}/>
                             <h4>{item.title}</h4>
                             <h3>{`Rp. ${item.price.toLocaleString()}`}</h3>
                             <p>{item.description}</p>

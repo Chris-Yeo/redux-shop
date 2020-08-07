@@ -22,11 +22,11 @@ class Cart extends Component {
                     cart.map(item => 
                         <div className="cartProduct" key={item.id}>
                             <div className="cartContent">
-                                <img src={item.img}/>
+                                <img src={item.img} alt="cartImage"/>
                                 <h3>Product: {item.title}</h3>
                                 <h3>Price: {`Rp. ${item.price.toLocaleString()}`}</h3>
                                 <h3>Total Item: {item.quantity}</h3>
-                                <h3>Total Amount: {`Rp. ${item.price * item.quantity.toLocaleString()}`}</h3>
+                                <h3>Total Amount: {item.price * item.quantity}</h3>
                                 <button onClick={this.props.removeCartProduct.bind(this , item)} className="buttons">Remove Item</button>
                             </div>
                         </div>
